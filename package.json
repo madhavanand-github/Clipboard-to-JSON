@@ -37,5 +37,9 @@
   },
   "dependencies": {
     "@madhavanand/object-string-to-object": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonyzach/usfm-validator.git"
   }
 }
