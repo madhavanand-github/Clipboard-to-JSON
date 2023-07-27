@@ -17,7 +17,7 @@ function activate(context) {
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('clipboard-to-json.helloWorld', async () => {
+	let disposable = vscode.commands.registerCommand('clipboard-to-json.clipson', async () => {
 		const clipboardText = await vscode.env.clipboard.readText();
 
 		try {

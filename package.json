@@ -1,7 +1,7 @@
 {
   "name": "clipboard-to-json",
-  "displayName": "clipboard-to-json",
-  "description": "Converts json from clipboard to JSON",
+  "displayName": "Clipboard To JSON",
+  "description": "Converts JS Object in string type to JSON inside Clipboard",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "clipboard-to-json.helloWorld",
-        "title": "Hello World"
+        "command": "clipboard-to-json.clipson",
+        "title": "Clipboard To JSON"
       }
     ]
   },
