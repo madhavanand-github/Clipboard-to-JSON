@@ -1,6 +1,7 @@
 # clipboard-to-json
 
 Converts the Javascript Object in String Type to JSON Format.
+**Use Case** : When Testing API
 
 ## Video Demo
 
